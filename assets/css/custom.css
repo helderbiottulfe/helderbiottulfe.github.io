@@ -12,3 +12,16 @@ footer.theme-dark   { background-color: #0f172a }
 
 
 header .col-text h2, .col-1 > h3 { line-height: 1.8 }
+
+/*  logo smaller */
+.brand img {
+    max-height: 100px;
+    width: auto;
+}
+
+
+@media (max-width: 768px) {
+    .brand img {
+        max-height: 35px;
+    }
+}
